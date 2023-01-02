@@ -114,8 +114,8 @@ build CMakeFiles/startwithc.dir/enumeration.c.o: C_COMPILER__startwithc_Debug /U
   OBJECT_DIR = CMakeFiles/startwithc.dir
   OBJECT_FILE_DIR = CMakeFiles/startwithc.dir
 
-build CMakeFiles/startwithc.dir/pointer.c.o: C_COMPILER__startwithc_Debug /Users/aiden/CLionProjects/startwithc/pointer.c || cmake_object_order_depends_target_startwithc
-  DEP_FILE = CMakeFiles/startwithc.dir/pointer.c.o.d
+build CMakeFiles/startwithc.dir/test.c.o: C_COMPILER__startwithc_Debug /Users/aiden/CLionProjects/startwithc/test.c || cmake_object_order_depends_target_startwithc
+  DEP_FILE = CMakeFiles/startwithc.dir/test.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/startwithc.dir
   OBJECT_FILE_DIR = CMakeFiles/startwithc.dir
@@ -128,7 +128,7 @@ build CMakeFiles/startwithc.dir/pointer.c.o: C_COMPILER__startwithc_Debug /Users
 #############################################
 # Link the executable startwithc
 
-build startwithc: C_EXECUTABLE_LINKER__startwithc_Debug CMakeFiles/startwithc.dir/main.c.o CMakeFiles/startwithc.dir/AutoExchangeToBigger.c.o CMakeFiles/startwithc.dir/PointerDemo.c.o CMakeFiles/startwithc.dir/forDemo.c.o CMakeFiles/startwithc.dir/breakDemo.c.o CMakeFiles/startwithc.dir/GotoDemo.c.o CMakeFiles/startwithc.dir/enumeration.c.o CMakeFiles/startwithc.dir/pointer.c.o
+build startwithc: C_EXECUTABLE_LINKER__startwithc_Debug CMakeFiles/startwithc.dir/main.c.o CMakeFiles/startwithc.dir/AutoExchangeToBigger.c.o CMakeFiles/startwithc.dir/PointerDemo.c.o CMakeFiles/startwithc.dir/forDemo.c.o CMakeFiles/startwithc.dir/breakDemo.c.o CMakeFiles/startwithc.dir/GotoDemo.c.o CMakeFiles/startwithc.dir/enumeration.c.o CMakeFiles/startwithc.dir/test.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/startwithc.dir
   POST_BUILD = :
